@@ -52,6 +52,11 @@ body {
   justify-content: center;
   display: flex;
   background-color: hsl(213, 19%, 18%);
+  font-weight: 700;
+}
+
+.numbers-flexbox div:hover{
+  background-color: hsl(25, 97%, 53%);
 }
 
 .submit-btn {
@@ -67,9 +72,18 @@ body {
   cursor: pointer;
 }
 
+.submit-btn:hover {
+  background-color: hsl(0, 100%, 100%);
+}
+
 h1 {
   font-weight: 700;
   color: hsl(0, 100%, 100%);
+}
+
+.numbers-flexbox .turn-on-color {
+  background-color: hsl(0, 100%, 100%);
+  color: hsl(213, 19%, 18%);
 }
 
 /* For mobile design */
